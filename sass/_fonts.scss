@@ -1,0 +1,31 @@
+/*
+@font-face {
+	font-family: pnr;
+    src: url('../fonts/f.eot');
+    src: url('../fonts/f.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/f.woff') format('woff'),
+    url('../fonts/f.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ }
+*/
+
+
+@font-face {
+	font-family: pn;
+    src: url('../fonts/Proxima Nova Regular.otf');
+    font-weight: 400;
+    font-style: normal;
+ }
+@font-face {
+	font-family: pn;
+    src: url('../fonts/Proxima Nova Bold.otf');
+    font-weight: 700;
+    font-style: normal;
+ }
+@font-face {
+	font-family: pn;
+    src: url('../fonts/Proxima Nova Black.otf');
+    font-weight: 900;
+    font-style: normal;
+ }

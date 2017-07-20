@@ -1,0 +1,45 @@
+.select {
+  color: #000;
+  position: relative;
+  cursor: pointer; }
+  .select .label {
+    display: table;
+    vertical-align: middle;
+    padding: 0 75px 0 25px;
+    font-size: 15px;
+    width: 293px;
+    height: 62px;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-clip-path: polygon(100% 0, 100% 75%, 94% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 75%, 94% 100%, 0 100%, 0 0); }
+    .select .label:after {
+      content: '';
+      width: 63px;
+      height: 62px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-left: 1px solid #fff;
+      background: url(../img/arr_sel.png) left 22px center no-repeat; }
+    .select .label div {
+      display: table-cell;
+      vertical-align: middle; }
+  .select .list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 94%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid #8CA0AF; }
+    .select .list div {
+      padding: 10px 25px;
+      border-top: 1px solid #8CA0AF; }
+      .select .list div:hover {
+        background: #fff; }
