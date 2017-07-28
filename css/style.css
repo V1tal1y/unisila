@@ -2,6 +2,8 @@
   color: #000;
   position: relative;
   cursor: pointer; }
+  .select.active .label, .select.active .list {
+    background: #fff; }
   .select .label {
     display: table;
     vertical-align: middle;
@@ -37,7 +39,8 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background: rgba(255, 255, 255, 0.5);
-    border-bottom: 1px solid #8CA0AF; }
+    border-bottom: 1px solid #8CA0AF;
+    z-index: 1; }
     .select .list div {
       padding: 10px 25px;
       border-top: 1px solid #8CA0AF; }

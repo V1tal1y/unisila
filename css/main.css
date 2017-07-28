@@ -88,7 +88,9 @@ body {
   background-color: #f1f2f4;
   background-image: url(../img/footer.jpg);
   background-repeat: repeat-x;
-  background-position: center bottom; }
+  background-position: center bottom;
+  max-width: 100%;
+  overflow-x: hidden; }
 
 b {
   font-weight: 700; }
@@ -234,7 +236,7 @@ h2 {
       display: block; }
     .project .slide.slick-current span {
       display: inline-block; }
-  .project .slick-list {
+  .project .slick-3 {
     padding-left: 5%; }
   .project .img {
     position: relative; }
@@ -545,7 +547,6 @@ h2 {
   width: 360px;
   height: 62px;
   font-size: 18px;
-  line-height: 61px;
   font-size: 18px;
   text-align: center;
   border: none;
@@ -605,7 +606,7 @@ footer {
   position: relative;
   margin-left: -225px;
   position: absolute;
-  border-top: 5px solid #fec400;
+  border-top: 5px solid #FE3A4C;
   position: fixed;
   display: none;
   z-index: 20; }

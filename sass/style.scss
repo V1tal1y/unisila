@@ -3,7 +3,11 @@
 	position: relative;
 	cursor: pointer;
 
-
+	&.active {
+		.label, .list{
+			background: #fff;
+		}
+	}
 	.label{
 		display: table;
 		vertical-align: middle;
@@ -46,6 +50,7 @@
 		box-sizing: border-box;
 		background: rgba(255,255,255,0.5);
 		border-bottom: 1px solid #8CA0AF;
+		z-index: 1;
 		
 		div{
 			padding: 10px 25px;

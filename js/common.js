@@ -75,20 +75,20 @@ $(function() {
 	$("input[name=phone]").mask("+7 (999) 999-99-99");
 
 
-	$(".btn_popap_sel").click(function(){
-		
-	});
 
 	$(".select .list div").click(function(){
 		$('.select .label div').text($(this).text());
 		$(".select .list").slideUp('slow')
+		$(".select").removeClass('active')
 	});
 	$(".select .label").click(function(){
 		$(".select .list").slideToggle('slow')
+		$(".select").toggleClass('active')
 	});
 	$(document).on('click', function(e) {
 	  if (!$(e.target).closest(".select, .select .list").length) {
 	    $('.select .list').slideUp();
+		$(".select").removeClass('active')
 	  }
 	  e.stopPropagation();
 	});
